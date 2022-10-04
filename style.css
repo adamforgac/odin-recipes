@@ -38,13 +38,15 @@ body {
 .heading-part p {
     color: white;
     font-family: "Open sans", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     letter-spacing: 3px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
+
 /* IMAGE PART */
 /* IMAGE PART */
 /* IMAGE PART */
+
 .image-part {
     flex: 3;
     display: flex;
@@ -59,25 +61,67 @@ body {
 
 .dish1, .dish2, .dish3 {
     transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.dish1:hover {
+.dish1 img, .dish2 img, .dish3 img {
+    transition: 0.7s;
+}
+
+.image-part a {
+    margin-top: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    
+}
+
+.dish1 img:hover {
     scale: 1.2;
     transition: 1s;
     transform: rotate(200deg);
+    margin-bottom: 50px;
 }
 
-.dish2:hover {
+.dish2 img:hover {
     scale: 1.2;
     transition: 1s;
     transform: rotate(200deg);
+    margin-bottom: 50px;
 }
 
-.dish3:hover {
+.dish3 img:hover {
     scale: 1.2;
     transition: 1s;
     transform: rotate(200deg);
+    margin-bottom: 50px;
 }
+
+/* SIGNATURE PART */
+/* SIGNATURE PART */
+/* SIGNATURE PART */
+
+.signature-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.signature-part a {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Mrs Saint Delafield', cursive;
+}
+
+
 
 
 

@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(images/wooden-plank-textured-background-material.jpg);
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -31,8 +31,9 @@ body {
 .heading-part h1 {
     color: white;
     font-family: "Open sans", sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 1.5px;
+    margin-top: 40px;
 }
 
 .heading-part p {
@@ -83,24 +84,18 @@ body {
 }
 
 .dish1 img:hover {
-    scale: 1.2;
+    scale: 1.1;
     transition: 1s;
-    transform: rotate(200deg);
-    margin-bottom: 50px;
 }
 
 .dish2 img:hover {
-    scale: 1.2;
+    scale: 1.1;
     transition: 1s;
-    transform: rotate(200deg);
-    margin-bottom: 50px;
 }
 
 .dish3 img:hover {
-    scale: 1.2;
+    scale: 1.1;
     transition: 1s;
-    transform: rotate(200deg);
-    margin-bottom: 50px;
 }
 
 /* SIGNATURE PART */
@@ -114,11 +109,8 @@ body {
     margin: 30px;
 }
 
-.signature-part a {
-    font-size: 40px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Mrs Saint Delafield', cursive;
+.signature-part img {
+    width: 200px;
 }
 
 

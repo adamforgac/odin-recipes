@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADING PART */
+/* HEADING PART */
+/* HEADING PART */
+
+
+.heading-part {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading-part h1 {
+    color: white;
+    font-family: "Open sans", sans-serif;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.top-menu-area {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* MIDDLE AREA WITH PHOTO */
+/* MIDDLE AREA WITH PHOTO */
+/* MIDDLE AREA WITH PHOTO */
+
+.middle-description-area {
+    display: flex;
+    flex-direction: row;
+}
+
+/* INSTRUCTIONS AREA  */
+/* INSTRUCTIONS AREA  */
+/* INSTRUCTIONS AREA  */
+
+.instructions-area {
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients, .instructions, .notes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}

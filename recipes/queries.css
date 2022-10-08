@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1070px) {
+    .food-part {
+        transform: scale(1.1);
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .middle-description-area {
+        flex-direction: column-reverse;
+    }
+
+    .food-part {
+        justify-content: center;
+        align-items: center;
+        transform: scale(1);
+        margin: 30px 0px 30px 0px;
+    }
+
+    .name-part {
+        align-items: flex-start;
+        justify-content: center;
+        margin: 50px auto;
+        transform: translateX(6%);
+    }
+
+    .signature h3 {
+        font-size: 60px;
+    }
+
+    .heading h1 {
+        font-size: 50px;
+        max-width: 500px;
+        line-height: 56px;
+    }
+
+    .description p {
+        font-size: 23px;
+    }
+
+    .instructions-area {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instructions-name h2 {
+        font-size: 40px;
+    }
+
+    .instructions-content ul, .instructions-content ol {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .signature h3 {
+        font-size: 35px;
+    }
+
+    .name-part {
+        max-width: 350px;
+        transform: translateX(0);
+    }
+
+    .heading h1 {
+        font-size: 40px;
+        max-width: 350px;
+        line-height: 45px;
+    }
+
+    .description p {
+        font-size: 18px;
+    }
+
+    .food-part img {
+        max-width: 350px;
+    }
+
+    .logo h2 {
+        font-size: 30px;
+    }
+
+    .logo img {
+        max-width: 200px;
+    }
+
+    .instructions ol li {
+        text-align: center;
+        list-style-type: none;
+        margin-bottom: 50px;
+    }
+
+
+} 
+
+@media only screen and (max-width: 373px) {
+    .signature h3 {
+        font-size: 30px;
+    }
+
+    .name-part {
+        max-width: 300px;
+        transform: translateX(0);
+    }
+
+    .heading h1 {
+        font-size: 30px;
+        max-width: 350px;
+        line-height: 35px;
+    }
+
+    .description p {
+        font-size: 13px;
+    }
+
+    .food-part img {
+        max-width: 240px;
+    }
+
+    .ingredients, .instructions, .notes {
+        padding: 0px;
+    }
+
+}
